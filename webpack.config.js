@@ -27,6 +27,10 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: "html-loader",
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        type: "asset",
       }
     ],
   },

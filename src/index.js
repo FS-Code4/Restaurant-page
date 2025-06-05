@@ -1,7 +1,5 @@
-/*
-Configure webpack
-first npm install webpack 
-*/
+import { generateHTML } from "./appendtoDIV#content";
 import "./styles.css";
 
-console.log('Working!')
+generateHTML()
+
