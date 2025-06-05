@@ -1,1 +1,0 @@
-export const test = "Webpack properly functioning"
