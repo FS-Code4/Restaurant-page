@@ -60,3 +60,10 @@ button {
   transform: translateY(0);
 }
 
+h4 {
+  font-size: 4rem;
+}
+
+.description {
+  width: 60%;
+}

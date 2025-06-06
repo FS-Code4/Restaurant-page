@@ -1,7 +1,6 @@
 import restaurant from '/src/Restaurant.jpg'
 
 export function generateHTML() {
-        document.addEventListener('DOMContentLoaded', () => {
         const contentDiv = document.querySelector('#content');
 
         const h1 = document.createElement('h1');
@@ -16,5 +15,5 @@ export function generateHTML() {
          
 
         contentDiv.append(h1, paragraph, img)
-    })
+    
 }
